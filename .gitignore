@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated database (recreate with: python db/generate_data.py)
+db/*.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editor / tooling
+.claude/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
